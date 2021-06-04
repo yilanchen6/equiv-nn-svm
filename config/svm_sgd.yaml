@@ -1,0 +1,18 @@
+data:
+  dataset: mnist
+  normalize: False
+
+model:
+  seed: 6
+  width: 10000
+  hidden_layer: 0
+
+train_net:
+  lr: 1
+  epochs: 100
+  lam: 0.001
+  batch_size: 64
+  save: True
+  test_num_every_epoch: 1
+  train_svm: True
+  train_nn: True

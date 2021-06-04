@@ -1,4 +1,4 @@
-#Codes for the paper: On the Equivalence between Neural Network andSupport Vector Machine
+# Codes for the paper: On the Equivalence between Neural Network andSupport Vector Machine
 ***
 
 Required environments:

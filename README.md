@@ -2,7 +2,8 @@
 ***
 
 ## Required environments:
-`pytorch     neural_tangents`
+`pytorch`     
+`neural-tangents`
 
 ***
 ## Codes

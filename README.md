@@ -1,7 +1,7 @@
 # Codes for the paper: On the Equivalence between Neural Network andSupport Vector Machine
 ***
 
-Required environments:
+## Required environments:
 > pytorch    
 > neural_tangents
 

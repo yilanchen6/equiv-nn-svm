@@ -11,6 +11,6 @@
 * regression.py: kernel ridge regression with NTK.
 * robust_svm:
     * test.py: test the robustness of NN using IBP and SVM with our method in the paper.  
-    * test_kernel_machines: test the robustness of kernel ridge regression models using our method.
+    * test_regressions: test the robustness of kernel ridge regression models using our method.
     
 * ibp.py: functions to calculate IBP bounds. Specified for NTK parameterization.

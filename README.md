@@ -14,3 +14,7 @@
     * test_regressions: test the robustness of kernel ridge regression models using our method.
     
 * ibp.py: functions to calculate IBP bounds. Specified for NTK parameterization.
+
+
+## Cite our paper
+````

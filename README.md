@@ -48,6 +48,8 @@ Yilan Chen, Wei Huang, Lam M. Nguyen, Tsui-Wei Weng, "[On the Equivalence betwee
 ```
 python train_sgd.py
 ```
-### Example of the results
+### Example of the SGD results
 ![SGD results](https://github.com/leslie-CH/svm/blob/main/examples/plot_sgd.png)
 
+### Example of the GD results
+![GD results](https://github.com/leslie-CH/svm/blob/main/examples/output.png)

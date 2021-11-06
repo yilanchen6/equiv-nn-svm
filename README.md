@@ -17,7 +17,7 @@ Furthermore, we demonstrate our theory can enable three practical applications, 
 
 See our [paper]() and [slides](http://chenyilan.net/files/SVM_Slides.pdf) for details.
 
-## Cite our paper
+# Cite our paper
 Yilan Chen, Wei Huang, Lam M. Nguyen, Tsui-Wei Weng, "[On the Equivalence between Neural Network and Support Vector Machine]()", NeurIPS 2021.
 
 ```
@@ -40,5 +40,14 @@ Yilan Chen, Wei Huang, Lam M. Nguyen, Tsui-Wei Weng, "[On the Equivalence betwee
     * test_regressions: test the robustness of kernel ridge regression models using our method.
     
 * ibp.py: functions to calculate IBP bounds. Specified for NTK parameterization.
+
+
+
+# Experiments
+### Train NN and SVM to verify the equivalence
+```
+python train_sgd.py
+```
+### Example of the results
 
 

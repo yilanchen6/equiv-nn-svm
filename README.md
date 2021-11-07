@@ -1,5 +1,5 @@
-# Codes for the paper: On the Equivalence between Neural Network andSupport Vector Machine
-
+# On the Equivalence between Neural Network andSupport Vector Machine
+Codes for NeurIPS 2021 paper "On the Equivalence between Neural Network and Support Vector Machine".
 
 
 # Overview
@@ -43,8 +43,11 @@ Yilan Chen, Wei Huang, Lam M. Nguyen, Tsui-Wei Weng, "[On the Equivalence betwee
 
 
 # Required environments:
-`pytorch`     
-`neural-tangents`
+```
+pytorch
+neural-tangents
+```
+
 
 
 
@@ -85,7 +88,6 @@ python -c "import robust_svm; robust_svm.test('nn')"
 Add your paths to your SVM models in the code.
 ```
 python -c "import robust_svm; robust_svm.test('svm')"
-python robust_svm.test('svm')
 ```
 ![robustness verification results](https://github.com/leslie-CH/svm/blob/main/examples/table2.png)
 

@@ -41,7 +41,7 @@ Yilan Chen, Wei Huang, Lam M. Nguyen, Tsui-Wei Weng, "[On the Equivalence betwee
 * models/model.py: codes for constructing fully-connected neural networks with NTK parameterization.
 * config/:
   * svm_sgd.yaml: configurations and hyper-parameters to train NN and SVM.
-  * svm_sgd.yaml: configurations and hyper-parameters to calculate generalization bound.
+  * svm_gene.yaml: configurations and hyper-parameters to calculate generalization bound.
 
 
 # Required environments:
@@ -92,3 +92,11 @@ Add your paths to your SVM models in the code.
 python -c "import robust_svm; robust_svm.test('svm')"
 ```
 ![robustness verification results](https://github.com/leslie-CH/svm/blob/main/examples/table2.png)
+
+
+
+### Robustness verification of kernel regression models
+```
+python -c "import robust_svm; robust_svm.test_regressions()"
+```
+![robustness verification results](https://github.com/leslie-CH/svm/blob/main/examples/table3.png)

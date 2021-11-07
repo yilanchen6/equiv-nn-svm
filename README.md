@@ -80,7 +80,7 @@ python regression.py
 ```
 
 ### Robustness verification of NN
-Add your paths to your NN models in the code and separate by the width. Specify the with of the models you want to verify.
+Add your paths to your NN models in the code and separate by the width. Specify the width of the models you want to verify.
 ```
 python -c "import robust_svm; robust_svm.test('nn')"
 ```

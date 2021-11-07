@@ -17,6 +17,8 @@ Furthermore, we demonstrate our theory can enable three practical applications, 
 
 See our [paper]() and [slides](http://chenyilan.net/files/SVM_Slides.pdf) for details.
 
+![Equivalence between infinite-width NNs and a family of KMs](https://github.com/leslie-CH/svm/blob/main/examples/table1.png)
+
 # Cite our paper
 Yilan Chen, Wei Huang, Lam M. Nguyen, Tsui-Wei Weng, "[On the Equivalence between Neural Network and Support Vector Machine]()", NeurIPS 2021.
 
@@ -75,8 +77,12 @@ Add your paths to your SVM models in the code.
 ```
 python robust_svm.test('svm')
 ```
+![robustness verification results](https://github.com/leslie-CH/svm/blob/main/examples/table2.png)
+
+
 
 ### Robustness verification of kernel regression models
 ```
 python robust_svm.test_regressions()
 ```
+![robustness verification results](https://github.com/leslie-CH/svm/blob/main/examples/table3.png)

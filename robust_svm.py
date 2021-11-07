@@ -188,8 +188,8 @@ def test_nn(width, nn_paths, test_classified_right, X_test, Y_test, T, device):
     print(np.mean(nn_delta_list), np.std(nn_delta_list))
 
 
-def test():
-    model = 'nn'
+def test(model):
+    model = str(model)
     width = int(1e4)
     seed = 0
     normalize = False
@@ -297,5 +297,5 @@ def test_regressions():
 
 
 if __name__ == '__main__':
-    test()
+    test('nn')
     # test_regressions()

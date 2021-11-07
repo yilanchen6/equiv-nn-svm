@@ -64,6 +64,19 @@ python regression.py
 ```
 
 ### Robustness verification of NN
+Add your paths to your NN models in the code and separate by the width. Specify the with of the models you want to verify.
 ```
-python regression.py
+python robust_svm.test('nn')
+```
+
+
+### Robustness verification of SVM
+Add your paths to your SVM models in the code.
+```
+python robust_svm.test('svm')
+```
+
+### Robustness verification of kernel regression models
+```
+python robust_svm.test_regressions()
 ```

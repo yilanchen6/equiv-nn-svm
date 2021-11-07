@@ -26,20 +26,23 @@ Yilan Chen, Wei Huang, Lam M. Nguyen, Tsui-Wei Weng, "[On the Equivalence betwee
 
 
 
+# Codes overview
+* train_sgd.py: train the NN and SVM with NTK with stochastic subgradient descent. Plot the results to verify the equivalence.
+* config/svm_sgd.yaml: configurations and hyper-parameters to train NN and SVM.
+* models/model.py: codes for constructing fully-connected neural networks with NTK parameterization.
+* regression.py: kernel ridge regression with NTK.
+* robust_svm:
+    * test: test the robustness of NN using IBP and SVM with our method in the paper.  
+    * test_regressions: test the robustness of kernel ridge regression models using our method.
+    * bound_ntk：calculate the lower and upper bound for NTK of two-layer fully-connected NN 
+    
+* ibp.py: functions to calculate IBP bounds. Specified for NTK parameterization.
+
+
+
 # Required environments:
 `pytorch`     
 `neural-tangents`
-
-
-# Codes overview
-* train_sgd.py: train the NN and SVM with NTK with stochastic subgradient descent.
-* config/svm_sgd.yaml: configurations and hyper-parameters to train NN and SVM.
-* regression.py: kernel ridge regression with NTK.
-* robust_svm:
-    * test.py: test the robustness of NN using IBP and SVM with our method in the paper.  
-    * test_regressions: test the robustness of kernel ridge regression models using our method.
-    
-* ibp.py: functions to calculate IBP bounds. Specified for NTK parameterization.
 
 
 
@@ -53,3 +56,14 @@ python train_sgd.py
 
 ### Example of the GD results
 ![GD results](https://github.com/leslie-CH/svm/blob/main/examples/output.png)
+
+
+### Train kernel ridge regression with NTK models
+```
+python regression.py
+```
+
+### Robustness verification of NN
+```
+python regression.py
+```

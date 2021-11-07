@@ -200,7 +200,8 @@ def test(model):
     device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 
     nn_path_normalize = {'10000': ['your paths to NN trained by normalized data', ], }
-    nn_path_un_normalize = {'10000': ['your paths to NN trained by un-normalized data',],}
+    # nn_path_un_normalize = {'10000': ['your paths to NN trained by un-normalized data',],}
+    nn_path_un_normalize = {'10000': ['/home/yilan/svm_submit/exper/mnist_sgd_un-normalize/2021-06-04/10000_0_100_1_0.001_64_6', ], }
 
     # paths to NN weights
     if normalize:

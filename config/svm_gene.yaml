@@ -1,0 +1,14 @@
+data:
+  dataset: mnist
+  normalize: False
+  size: 1000
+
+model:
+  seed: 6
+  width: 100
+  hidden_layer: 0
+
+train_net:
+  lr: 0.1
+  epochs: 1000
+  lam: 0.001

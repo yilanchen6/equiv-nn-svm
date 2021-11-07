@@ -53,11 +53,20 @@ Yilan Chen, Wei Huang, Lam M. Nguyen, Tsui-Wei Weng, "[On the Equivalence betwee
 ```
 python train_sgd.py
 ```
-### Example of the SGD results
+#### Example of the SGD results
 ![SGD results](https://github.com/leslie-CH/svm/blob/main/examples/plot_sgd.png)
 
-### Example of the GD results
+#### Example of the GD results
 ![GD results](https://github.com/leslie-CH/svm/blob/main/examples/output.png)
+
+
+### Computing *non-vacuous* generalization bound of NN via the corresponding KM
+```
+python generalization.py
+```
+#### Example of the generalization bound results
+![Generalization bound results](https://github.com/leslie-CH/svm/blob/main/examples/generalization.png)
+
 
 
 ### Train kernel ridge regression with NTK models
@@ -68,13 +77,14 @@ python regression.py
 ### Robustness verification of NN
 Add your paths to your NN models in the code and separate by the width. Specify the with of the models you want to verify.
 ```
-python robust_svm.test('nn')
+python -c "import robust_svm; robust_svm.test('nn')"
 ```
 
 
 ### Robustness verification of SVM
 Add your paths to your SVM models in the code.
 ```
+python -c "import robust_svm; robust_svm.test('svm')"
 python robust_svm.test('svm')
 ```
 ![robustness verification results](https://github.com/leslie-CH/svm/blob/main/examples/table2.png)
@@ -83,6 +93,6 @@ python robust_svm.test('svm')
 
 ### Robustness verification of kernel regression models
 ```
-python robust_svm.test_regressions()
+python -c "import robust_svm; robust_svm.test_regressions()"
 ```
 ![robustness verification results](https://github.com/leslie-CH/svm/blob/main/examples/table3.png)

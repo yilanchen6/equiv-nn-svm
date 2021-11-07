@@ -41,7 +41,7 @@ Yilan Chen, Wei Huang, Lam M. Nguyen, Tsui-Wei Weng, "[On the Equivalence betwee
 * models/model.py: codes for constructing fully-connected neural networks with NTK parameterization.
 * config/:
   * svm_sgd.yaml: configurations and hyper-parameters to train NN and SVM.
-  * svm_sgd.yaml: configurations and hyper-parameters to calculate generalization bound.
+  * svm_gene.yaml: configurations and hyper-parameters to calculate generalization bound.
 
 
 # Required environments:

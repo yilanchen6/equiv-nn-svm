@@ -1,4 +1,4 @@
-# On the Equivalence between Neural Network andSupport Vector Machine
+# On the Equivalence between Neural Network and Support Vector Machine
 Codes for NeurIPS 2021 paper "[On the Equivalence between Neural Network and Support Vector Machine]()".
 
 

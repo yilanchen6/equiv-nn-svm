@@ -52,7 +52,7 @@ year={2021}
 # Required environments:
 This code is tested on the below environments:
 ```
-Python==3.8.8
+python==3.8.8
 torch==1.8.1
 neural-tangents==0.3.6
 ```

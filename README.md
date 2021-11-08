@@ -59,7 +59,7 @@ neural-tangents==0.3.6
 For the installation of `PyTorch`, please reference the instructions from https://pytorch.org/get-started/locally/. 
 For the installation and usage of `neural-tangents`, please reference the instructions at https://github.com/google/neural-tangents. 
 
-Other used packages can be installed as follows,
+Other required packages can be installed as follows,
 ```
 conda create --name ntk python=3.8
 conda activate ntk

@@ -37,10 +37,10 @@ year={2021}
 * `train_sgd.py`: train the NN and SVM with NTK with stochastic subgradient descent. Plot the results to verify the equivalence.
 * `generalization.py`: compute *non-vacuous* generalization bound of NN via the corresponding KM.  
 * `regression.py`: kernel ridge regression with NTK.
-* `robust_svm`:
-    * `test`: test the robustness of NN using IBP and SVM with our method in the paper.  
-    * `test_regressions`: test the robustness of kernel ridge regression models using our method.
-    * `bound_ntk`：calculate the lower and upper bound for NTK of two-layer fully-connected NN
+* `robust_svm.py`:
+    * `test`: evaluate the robustness of NN using IBP or SVM with our method in the paper.  
+    * `test_regressions`: evaluate the robustness of kernel ridge regression models using our method.
+    * `bound_ntk`：calculate the lower and upper bound for NTK of two-layer fully-connected NN.
 * `ibp.py`: functions to calculate IBP bounds. Specified for NTK parameterization.
 
 * `models/model.py`: codes for constructing fully-connected neural networks with NTK parameterization.
@@ -50,7 +50,7 @@ year={2021}
 
 
 # Required environments:
-This code is tested on below environments:
+This code is tested on the below environments:
 ```
 Python==3.8.8
 torch==1.8.1
@@ -96,7 +96,7 @@ python -c "import robust_svm; robust_svm.test('nn')"
 
 
 ### Robustness verification of SVM
-Add your paths to your SVM models in the code. Then run the `test()` function in `robust_svm`.
+Add your paths to your SVM models in the code. Then run the `test()` function in `robust_svm.py`.
 ```
 python -c "import robust_svm; robust_svm.test('svm')"
 ```
@@ -105,6 +105,7 @@ python -c "import robust_svm; robust_svm.test('svm')"
 
 
 ### Robustness verification of kernel regression models
+Run `test_regressions()` function in `robust_svm.py`.
 ```
 python -c "import robust_svm; robust_svm.test_regressions()"
 ```

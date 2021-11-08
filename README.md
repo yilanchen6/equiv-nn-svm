@@ -61,7 +61,7 @@ For the installation and usage of `neural-tangents`, please reference the instru
 
 Other required packages can be installed as follows,
 ```
-conda create --name ntk python=3.8
+conda create -n ntk python=3.8
 conda activate ntk
 conda install numpy tqdm matplotlib seaborn pyyaml
 ```

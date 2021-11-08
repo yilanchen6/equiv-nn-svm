@@ -33,7 +33,7 @@ year={2021}
 
 
 
-# Codes overview
+# Code overview
 * `train_sgd.py`: train the NN and SVM with NTK with stochastic subgradient descent. Plot the results to verify the equivalence.
 * `generalization.py`: compute *non-vacuous* generalization bound of NN via the corresponding KM.  
 * `regression.py`: kernel ridge regression with NTK.
@@ -50,11 +50,14 @@ year={2021}
 
 
 # Required environments:
+This code is tested on below environments:
 ```
-pytorch
-neural-tangents
+Python==3.8.8
+torch==1.8.1
+neural-tangents==0.3.6
 ```
-
+For the installation of `PyTorch`, please reference the instructions from https://pytorch.org/get-started/locally/. 
+For the usage and installation of `neural-tangents`, please reference the instructions from https://github.com/google/neural-tangents. 
 
 
 

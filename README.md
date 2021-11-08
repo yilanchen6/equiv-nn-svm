@@ -23,11 +23,11 @@ See our [paper]() and [slides](http://chenyilan.net/files/SVM_Slides.pdf) for de
 Yilan Chen, Wei Huang, Lam M. Nguyen, Tsui-Wei Weng, "[On the Equivalence between Neural Network and Support Vector Machine]()", NeurIPS 2021.
 
 ```
-  @article{chen2021equiv,
-  title={On the equivalence between neural network and support vector machine},
-  author={Chen, Yilan and Huang, Wei and Nguyen, Lam M. and Weng, Tsui-Wei},
-  journal={Advances in Neural Information Processing Systems},
-  year={2021}
+@inproceedings{chen2021equiv,
+title={On the equivalence between neural network and support vector machine},
+author={Chen, Yilan and Huang, Wei and Nguyen, Lam M. and Weng, Tsui-Wei},
+booktitle={Advances in Neural Information Processing Systems},
+year={2021}
 }
 ```
 

@@ -88,18 +88,12 @@ python generalization.py
 
 
 
-### Train kernel ridge regression with NTK models
-```
-python regression.py
-```
-
 ### Robustness verification of NN
 Add your paths to your NN models in the code and separate by the width. Specify the width of the models you want to verify.
 Then run the `test()` function in `robust_svm.py`.
 ```
 python -c "import robust_svm; robust_svm.test('nn')"
 ```
-
 
 ### Robustness verification of SVM
 Add your paths to your SVM models in the code. Then run the `test()` function in `robust_svm.py`.
@@ -109,6 +103,12 @@ python -c "import robust_svm; robust_svm.test('svm')"
 ![robustness verification results](https://github.com/leslie-CH/svm/blob/main/examples/table2.png)
 
 
+
+
+### Train kernel ridge regression with NTK models
+```
+python regression.py
+```
 
 ### Robustness verification of kernel regression models
 Run `test_regressions()` function in `robust_svm.py`.

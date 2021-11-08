@@ -57,7 +57,7 @@ torch==1.8.1
 neural-tangents==0.3.6
 ```
 For the installation of `PyTorch`, please reference the instructions from https://pytorch.org/get-started/locally/. 
-For the usage and installation of `neural-tangents`, please reference the instructions at https://github.com/google/neural-tangents. 
+For the installation and usage of `neural-tangents`, please reference the instructions at https://github.com/google/neural-tangents. 
 
 
 

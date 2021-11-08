@@ -61,8 +61,8 @@ For the installation and usage of `neural-tangents`, please reference the instru
 
 Other required packages can be installed as follows,
 ```
-conda create -n svm python=3.8
-conda activate svm
+conda create -n equiv-nn-svm python=3.8
+conda activate equiv-nn-svm
 conda install numpy tqdm matplotlib seaborn pyyaml
 ```
 

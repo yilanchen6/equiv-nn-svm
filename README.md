@@ -38,9 +38,9 @@ year={2021}
 * `generalization.py`: compute *non-vacuous* generalization bound of NN via the corresponding KM.  
 * `regression.py`: kernel ridge regression with NTK.
 * `robust_svm.py`:
-    * `test`: evaluate the robustness of NN using IBP or SVM with our method in the paper.  
-    * `test_regressions`: evaluate the robustness of kernel ridge regression models using our method.
-    * `bound_ntk`：calculate the lower and upper bound for NTK of two-layer fully-connected NN.
+    * `test()`: evaluate the robustness of NN using IBP or SVM with our method in the paper.  
+    * `test_regressions()`: evaluate the robustness of kernel ridge regression models using our method.
+    * `bound_ntk()`：calculate the lower and upper bound for NTK of two-layer fully-connected NN.
 * `ibp.py`: functions to calculate IBP bounds. Specified for NTK parameterization.
 
 * `models/model.py`: codes for constructing fully-connected neural networks with NTK parameterization.

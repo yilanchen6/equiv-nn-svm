@@ -110,7 +110,7 @@ python -c "import robust_svm; robust_svm.test('svm')"
 python regression.py
 ```
 
-### Robustness verification of kernel regression models
+### Robustness verification of kernel ridge regression models
 Run `test_regressions()` function in `robust_svm.py`.
 ```
 python -c "import robust_svm; robust_svm.test_regressions()"

@@ -61,7 +61,7 @@ neural-tangents==0.3.6
 For the installation of `PyTorch`, please reference the instructions from https://pytorch.org/get-started/locally/. 
 For the installation and usage of `neural-tangents`, please reference the instructions at https://github.com/google/neural-tangents. 
 
-Other required packages can be installed as follows,
+Other required packages can be installed using `Conda` as follows,
 ```
 conda create -n equiv-nn-svm python=3.8
 conda activate equiv-nn-svm

@@ -10,5 +10,5 @@ model:
 
 train_net:
   lr: 0.1
-  epochs: 1000
+  epochs: 100
   lam: 0.001

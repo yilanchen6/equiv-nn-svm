@@ -1,6 +1,18 @@
 # On the Equivalence between Neural Network and Support Vector Machine
 Codes for NeurIPS 2021 paper "[On the Equivalence between Neural Network and Support Vector Machine]()".
 
+# Cite our paper
+Yilan Chen, Wei Huang, Lam M. Nguyen, Tsui-Wei Weng, "[On the Equivalence between Neural Network and Support Vector Machine]()", NeurIPS 2021.
+
+```
+@inproceedings{chen2021equiv,
+title={On the equivalence between neural network and support vector machine},
+author={Yilan Chen and Wei Huang and Lam M. Nguyen and Tsui-Wei Weng},
+booktitle={Advances in Neural Information Processing Systems},
+year={2021}
+}
+```
+
 
 # Overview
 In this paper, we prove the equivalence between neural network (NN) and support vector machine (SVM), specifically, the 
@@ -19,17 +31,7 @@ See our [paper]() and [slides](http://chenyilan.net/files/SVM_Slides.pdf) for de
 
 ![Equivalence between infinite-width NNs and a family of KMs](https://github.com/leslie-CH/svm/blob/main/examples/table1.png)
 
-# Cite our paper
-Yilan Chen, Wei Huang, Lam M. Nguyen, Tsui-Wei Weng, "[On the Equivalence between Neural Network and Support Vector Machine]()", NeurIPS 2021.
 
-```
-@inproceedings{chen2021equiv,
-title={On the equivalence between neural network and support vector machine},
-author={Yilan Chen and Wei Huang and Lam M. Nguyen and Tsui-Wei Weng},
-booktitle={Advances in Neural Information Processing Systems},
-year={2021}
-}
-```
 
 
 

@@ -6,10 +6,10 @@ Yilan Chen, Wei Huang, Lam M. Nguyen, Tsui-Wei Weng, "[On the Equivalence betwee
 
 ```
 @inproceedings{chen2021equiv,
-title={On the equivalence between neural network and support vector machine},
-author={Yilan Chen and Wei Huang and Lam M. Nguyen and Tsui-Wei Weng},
-booktitle={Advances in Neural Information Processing Systems},
-year={2021}
+  title={On the equivalence between neural network and support vector machine},
+  author={Yilan Chen and Wei Huang and Lam M. Nguyen and Tsui-Wei Weng},
+  booktitle={Advances in Neural Information Processing Systems},
+  year={2021}
 }
 ```
 

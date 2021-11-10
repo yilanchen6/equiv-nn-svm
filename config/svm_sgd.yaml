@@ -9,7 +9,7 @@ model:
 
 train_net:
   lr: 1
-  epochs: 100
+  epochs: 300
   lam: 0.001
   batch_size: 64
   save: True

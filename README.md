@@ -1,6 +1,8 @@
 # On the Equivalence between Neural Network and Support Vector Machine
 Codes for NeurIPS 2021 paper "[On the Equivalence between Neural Network and Support Vector Machine]()".
 
+<a href="https://www.codecogs.com/eqnedit.php?latex=y&space;=&space;x^2" target="_blank"><img src="https://latex.codecogs.com/svg.latex?y&space;=&space;x^2" title="y = x^2" /></a>
+
 # Cite our paper
 Yilan Chen, Wei Huang, Lam M. Nguyen, Tsui-Wei Weng, "[On the Equivalence between Neural Network and Support Vector Machine]()", NeurIPS 2021.
 

@@ -1,8 +1,8 @@
 # On the Equivalence between Neural Network and Support Vector Machine
-Codes for NeurIPS 2021 paper "[On the Equivalence between Neural Network and Support Vector Machine]()".
+Codes for NeurIPS 2021 paper "[On the Equivalence between Neural Network and Support Vector Machine](https://arxiv.org/pdf/2111.06063.pdf)".
 
 # Cite our paper
-Yilan Chen, Wei Huang, Lam M. Nguyen, Tsui-Wei Weng, "[On the Equivalence between Neural Network and Support Vector Machine]()", NeurIPS 2021.
+Yilan Chen, Wei Huang, Lam M. Nguyen, Tsui-Wei Weng, "[On the Equivalence between Neural Network and Support Vector Machine](https://arxiv.org/pdf/2111.06063.pdf)", NeurIPS 2021.
 
 ```
 @inproceedings{chen2021equiv,
@@ -27,7 +27,7 @@ Furthermore, we demonstrate our theory can enable three practical applications, 
 (e.g. IBP, Fast-Lin, CROWN) would provide vacuous bounds); 
 - intrinsically more robust infinite-width NNs than those from previous kernel regression.  
 
-See our [paper]() and [slides](http://chenyilan.net/files/SVM_Slides.pdf) for details.
+See our [paper](https://arxiv.org/pdf/2111.06063.pdf) and [slides](http://chenyilan.net/files/SVM_Slides.pdf) for details.
 
 ![Equivalence between infinite-width NNs and a family of KMs](https://github.com/leslie-CH/svm/blob/main/examples/table1.png)
 

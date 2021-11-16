@@ -5,10 +5,10 @@ Codes for NeurIPS 2021 paper "[On the Equivalence between Neural Network and Sup
 Yilan Chen, Wei Huang, Lam M. Nguyen, Tsui-Wei Weng, "[On the Equivalence between Neural Network and Support Vector Machine](https://arxiv.org/pdf/2111.06063.pdf)", NeurIPS 2021.
 
 ```
-@inproceedings{chen2021equiv,
-  title={On the equivalence between neural network and support vector machine},
-  author={Yilan Chen and Wei Huang and Lam M. Nguyen and Tsui-Wei Weng},
-  booktitle={Advances in Neural Information Processing Systems},
+@inproceedings{chen2021equivalence,
+  title={On the Equivalence between Neural Network and Support Vector Machine},
+  author={Chen, Yilan and Huang, Wei and Nguyen, Lam M and Weng, Tsui-Wei},
+  booktitle={Thirty-Fifth Conference on Neural Information Processing Systems},
   year={2021}
 }
 ```

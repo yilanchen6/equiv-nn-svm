@@ -162,7 +162,7 @@ def train_nn(config, train_data, test_data, X_sub_train, X_sub_test, sub_ids_tra
                     output_train_nn.append(f_sub_train.detach().cpu().numpy())
 
                 # train acc and train loss
-                acc_train, loss_train = test_nn(fcnn, train_loader, init_train)
+                acc_train, loss_train = test_nn(fcnn, train_loader, init_train, device)
                 acc_train_nn.append(acc_train)
                 loss_train_nn.append(loss_train)
 
@@ -192,7 +192,7 @@ def train_nn(config, train_data, test_data, X_sub_train, X_sub_test, sub_ids_tra
 
 
 @torch.no_grad()
-def test_nn(fcnn, test_loader, init_test):
+def test_nn(fcnn, test_loader, init_test, device):
     # test
     correct = torch.tensor(0., device=device)
     hinge_test = torch.tensor(0., device=device)

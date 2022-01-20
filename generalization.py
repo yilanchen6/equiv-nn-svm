@@ -119,7 +119,7 @@ def train(config, device, save_path):
     for epoch in tqdm(range(epochs)):
 
         # test whole test set
-        acc_test, loss_test = test_nn(fcnn, test_loader, init_test)
+        acc_test, loss_test = test_nn(fcnn, test_loader, init_test, device)
         acc_test_nn.append(acc_test)
         loss_test_nn.append(loss_test)
 

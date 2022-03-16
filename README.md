@@ -85,9 +85,9 @@ python train_sgd.py
 <!-- ### Computing *non-vacuous* generalization bound of NN via the corresponding KM
 ```
 python generalization.py
-``` -->
+``` 
 #### Example of the generalization bound results
-![Generalization bound results](https://github.com/leslie-CH/svm/blob/main/examples/generalization.png)
+![Generalization bound results](https://github.com/leslie-CH/svm/blob/main/examples/generalization.png) -->
 
 
 

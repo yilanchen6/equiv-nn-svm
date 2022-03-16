@@ -37,7 +37,7 @@ See our [paper](https://arxiv.org/pdf/2111.06063.pdf) and [slides](http://chenyi
 
 # Code overview
 * `train_sgd.py`: train the NN and SVM with NTK with stochastic subgradient descent. Plot the results to verify the equivalence.
-* `generalization.py`: compute *non-vacuous* generalization bound of NN via the corresponding KM.  
+<!-- * `generalization.py`: compute *non-vacuous* generalization bound of NN via the corresponding KM.   -->
 * `regression.py`: kernel ridge regression with NTK.
 * `robust_svm.py`:
     * `test()`: evaluate the robustness of NN using IBP or SVM with our method in the paper.  
@@ -82,10 +82,10 @@ python train_sgd.py
 ![GD results](https://github.com/leslie-CH/svm/blob/main/examples/output.png)
 
 
-### Computing *non-vacuous* generalization bound of NN via the corresponding KM
+<!-- ### Computing *non-vacuous* generalization bound of NN via the corresponding KM
 ```
 python generalization.py
-```
+``` -->
 #### Example of the generalization bound results
 ![Generalization bound results](https://github.com/leslie-CH/svm/blob/main/examples/generalization.png)
 
